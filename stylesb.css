@@ -1,0 +1,589 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /*background: #054cb8;*/
+  background: url("./image/fondobiografia.jpg") no-repeat center center/cover;
+  font-family: Berlin Sans FB;
+}
+
+/*CONTENIDO*/
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/*PROFE JENNY*/
+.yeny {
+  padding: 30px;
+  margin-left: 100px;
+  width: 500px;
+  height: 30px;
+}
+
+.nombrey {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 0 0 6px black;
+}
+
+.biografiay {
+  display: block;
+  width: 500px;
+  height: 280px;
+  background: rgba(48, 46, 47, 0.459);
+  border-style: solid;
+  border-radius: 10px;
+  color: rgb(81, 255, 0);
+  margin-top: -100px;
+  margin-left: 700px;
+  padding: 10px;
+}
+#y {
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 20px;
+}
+#e {
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+/*CONTENIDO YENY*/
+.contenidoy {
+  display: block;
+  width: 210px;
+  margin-left: 250px;
+  perspective: 1000px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.contenidoy__imagenesy {
+  width: 100%;
+  position: absolute;
+  animation: rotar 30s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.contenidoy__imagenesy:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.contenidoy__imgy {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px black;
+  transition: all 300ms;
+}
+
+.contenidoy__imgy:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+
+.contenidoy__imgy:nth-child(0) {
+  transform: rotateY(0deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(1) {
+  transform: rotateY(40deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(2) {
+  transform: rotateY(80deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(3) {
+  transform: rotateY(120deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(4) {
+  transform: rotateY(160deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(5) {
+  transform: rotateY(200deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(6) {
+  transform: rotateY(240deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(7) {
+  transform: rotateY(280deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(8) {
+  transform: rotateY(320deg)translateZ(300px);
+}
+
+.contenidoy__imgy:nth-child(9) {
+  transform: rotateY(360deg)translateZ(300px);
+}
+
+.contenidoy__imagenesy img {
+  width: 100%;
+}
+
+.contenidoy__imagenesy img:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/*PROFE EMILCE*/
+.emilce {
+  padding: 30px;
+  margin-left: 640px;
+  width: 500px;
+  height: 30px;
+}
+
+.nombree {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 0 0 6px black;
+}
+.biografiae {
+  width: 500px;
+  height: 280px;
+  background: rgba(48, 46, 47, 0.459);
+  border-style: solid;
+  border-radius: 10px;
+  color: rgb(81, 255, 0);
+  margin-top: -50px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+/*CONTENIDO YENY*/
+.contenidoe {
+  display: block;
+  width: 210px;
+  margin-left: 770px;
+  perspective: 1000px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.contenidoe__imagenese {
+  width: 100%;
+  position: absolute;
+  animation: girar 30s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.contenidoe__imagenese:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.contenidoe__imge {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px black;
+  transition: all 300ms;
+}
+
+.contenidoe__imge:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+
+.contenidoe__imge:nth-child(0) {
+  transform: rotateY(0deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(1) {
+  transform: rotateY(40deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(2) {
+  transform: rotateY(80deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(3) {
+  transform: rotateY(120deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(4) {
+  transform: rotateY(160deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(5) {
+  transform: rotateY(200deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(6) {
+  transform: rotateY(240deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(7) {
+  transform: rotateY(280deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(8) {
+  transform: rotateY(320deg)translateZ(300px);
+}
+
+.contenidoe__imge:nth-child(9) {
+  transform: rotateY(360deg)translateZ(300px);
+}
+
+.contenidoe__imagenese img {
+  width: 100%;
+}
+
+.contenidoe__imagenese img:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+@keyframes girar {
+  from {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+/*EL REINO DE LOS ACERTIJOS*/
+/*RUTAS*/
+.fondo {
+  position: relative;
+}
+
+.rutas {
+  position: relative;
+  width: 0px;
+  height: 0px;
+}
+
+.rutas__image {
+  width: 350px;
+  height: 260px;
+  border-radius: 20px;
+  border-style: solid;
+  border-radius: 20px;
+  color: rgb(204, 135, 6);
+}
+
+.uno {
+  margin-top: -700px;
+  margin-left: 112px;
+}
+
+.uno:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.dos {
+  margin-top: 110px;
+  margin-left: 390px;
+}
+
+.dos:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.tres {
+  margin-top: -305px;
+  margin-left: 915px;
+}
+
+.tres:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cuatro {
+  margin-top: -95px;
+  margin-left: 1385px;
+}
+
+.cuatro:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cinco {
+  margin-top: -705px;
+  margin-left: 1385px;
+}
+
+.cinco:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.seis {
+  margin-top: -138px;
+  margin-left: 707px;
+}
+
+.seis:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.hilo {
+  margin-top: -730px;
+  margin-left: 100px;
+  box-shadow: 0px 0px 20px 0px black;
+  transition: all 300ms;
+}
+
+.hilo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+
+.hada {
+  margin-top: 60px;
+  margin-left: 340px;
+}
+
+.hada:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.perro {
+  margin-top: -370px;
+  margin-left: 840px;
+}
+
+.perro:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.chocolate {
+  margin-top: -170px;
+  margin-left: 1300px;
+}
+
+.chocolate:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.misterio {
+  margin-top: -765px;
+  margin-left: 1335px;
+}
+
+.misterio:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.conejo {
+  margin-top: -240px;
+  margin-left: 650px;
+}
+
+.conejo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+/*BOTON*/
+.botonb {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 20px 25px;
+  background: #058eb83d;
+  color: rgb(253, 253, 253);
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.botonb:hover {
+  opacity: 0.5;
+}
+/*MOVIL
+@media (max-width: 1400px){
+  /*body{background: #0000;}
+/*.contenidoe{
+  margin-top: 80px;
+  margin-left: 780px;
+}
+.biografiae{
+  margin-left: 0;
+  margin-top: -100px;
+}
+.emilce{
+  margin-top: 0px;
+  margin-left: 640px;
+}
+.contenidoy{
+  margin-left: 200px;
+}
+.yeny{
+  margin-left: 60px;
+}
+
+BOTON 1400
+.botonb {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 550px;
+}
+
+
+}
+
+@media (max-width: 700px){
+  /*body{background: rgb(58, 110, 108);}
+  .yeny{margin: auto;}
+  .contenidoy{
+    margin: auto;
+    margin-top: 100px;
+  }
+  .biografiay{
+    margin: auto;
+    margin-top: 300px;
+  }
+  /*EMILCE
+  .emilce{margin: auto;}
+  .contenidoe{
+    margin: auto;
+    margin-top: 100px;
+  }
+  .biografiae{
+    margin: auto;
+    margin-top: 300px;
+  }
+
+
+}*/
+
+@media (max-width: 500px){
+
+  /*PROFE JENNY MOVIL*/ 
+  .contenidoy {
+    display: block;
+    width: 210px;
+    perspective: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .yeny {
+    display: block;
+    width: 330px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    background:rgba(85, 65, 1, 0.644);
+  }
+  .nombrey {
+    display: block;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .biografiay {
+    display: block;
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    background: rgba(48, 46, 47, 0.459);
+    border-style: solid;
+    border-radius: 10px;
+    color: rgba(255, 208, 0, 0.404);
+    margin-top: 200px;
+  }
+  #y {
+    font-size: 20px;
+    margin-top: auto;
+  }
+   /*PROFE EMILCE MOVIL*/ 
+   .emilce {
+    display: block;
+    width: 330px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    background:rgba(85, 65, 1, 0.644);
+  } 
+  .nombree {
+    display: block;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .contenidoe {
+    display: block;
+    width: 210px;
+    perspective: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .biografiae {
+    display: block;
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    background: rgba(48, 46, 47, 0.459);
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(121, 64, 3);
+    margin-top: 200px;
+  }
+  #e {
+    font-size: 20px;
+    margin-top: auto;
+  }
+  .botonb{
+    border-radius: 10px;
+  }
+
+  }
+

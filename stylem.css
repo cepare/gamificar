@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("image/cueva1.jpg") no-repeat center center/cover;
+    
+    font-family: Berlin Sans FB;
+  }
+  
+  .container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+/*SLIDER NARRATIVA*/
+#carouselExampleIndicators{
+  padding: 10px;
+}
+#carousel-inner{
+ 
+  width: 500px;
+  height: 200px;
+}
+#myCarousel{
+  margin: auto;
+  width: 900px;
+  height: 1200px;
+
+}
+.btn-lg{
+  margin-top: 5px;
+  background-color: #5842056b;
+  border-color: #ffffff44;
+}
+.btn-lg:hover{
+  background-color: #5842056b;
+  opacity: .5;
+}
+  /*SLIDE QUINTO*/
+
+  .container2{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    padding: 30px;
+  }
+  .img-fluid{
+    position: relative;
+  }
+  .titulo{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    width: 90%;
+  }
+
+  .titulo__1 {
+    
+    font-size: 70px;
+    text-align: center;
+    color: #b68e51;
+    -webkit-text-stroke: 0.8px #d9b638;
+  }
+  .titulo__2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+
+  }
+  .videopro {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider2{
+    position: relative;
+    width: 1000px;
+    height: 1300px;
+  }
+  
+  ul.slider2 li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider2 li img{
+    width: 100%;
+    height: 1300px;
+    object-fit: cover;
+  }
+  
+  ul.slider2 li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider2 li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .menu li a:hover{
+    background-color: rgb(74, 145, 4);
+  }
+
+.grado5{
+  width: 100%;
+  background:url("./image/cueva1.webp");
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+}
+.grado5__imagen{
+  width: 1000px;
+  height: 1200px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/*slider Narrativa*/
+
+.boton {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  border: 0;
+  font-weight: bold;
+  padding: 20px 30px;
+  background: #054cb8;
+  color: rgb(253, 253, 253);
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: -70px 100px;
+}
+.boton:hover {
+  opacity: 0.5;
+}
+/*btn_cueba _laberinto*/  
+
+.fondocueva {
+  padding: 10px;
+  width: 900px;
+  height: 900px;
+  text-align: center;
+}
+.cueva__img {
+  width: 400px;
+  height: 200px;
+  margin-top: -1080px;
+  margin-left: -395px;
+}
+.cueva__img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.cueva2__img {
+  width: 400px;
+  height: 200px;
+  margin-top: -1130px;
+  margin-left: 430px;
+}
+.cueva2__img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+/*BOTON*/
+.botonb {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 20px 25px;
+  background: #885e033d;
+  color: rgb(253, 253, 253);
+  font-size: 16px;
+  text-align: center;
+
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.botonb:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+  @media (max-width: 500px){
+    .titulo {
+      display: block;
+      width: 100%;
+      height: 150px;
+      margin: 0;
+      margin-top: 5px;
+    }
+    .titulog {
+      display: block;
+      width: 100%;
+      height: 100px;
+      margin: 0;
+      margin-top: 5px;
+    }
+    .titulo__1{
+      padding: 5px;
+      font-size: 40px;
+
+    }
+    .titulo__2{
+      padding: 0;
+      font-size: 13px;
+    }  
+
+    .videopro {
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+/*SLIDE GENERALIDADES 500PX*/
+
+
+    
+        
+  
+}

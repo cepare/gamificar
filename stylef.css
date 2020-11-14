@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+/*LABERINTO*/
+.fondo {
+  width: 1280px;
+  height: 700px;
+  margin: auto;
+}
+.fondo__img {
+  margin: auto;
+}
+ 
+.rutas {
+  width: 1280px;
+  height: 700px;
+  margin: auto;
+  }
+
+.rutas__img {
+  width: 90px;
+  height: 90px;
+}
+.uno {
+  position: absolute;
+  margin-top: -545px;
+  margin-left: 125px;
+}
+
+.uno:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.dos {
+  position: absolute;
+  margin-top: -690px;
+  margin-left: 475px;
+}
+
+.dos:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.tres {
+  position: absolute;
+  margin-top: -610px;
+  margin-left: 898px;
+}
+
+.tres:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cuatro {
+  position: absolute;
+  margin-top: -405px;
+  margin-left: 623px;
+}
+
+.cuatro:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cinco {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 540px;
+}
+
+.cinco:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.seis {
+  position: absolute;
+  margin-top: -285px;
+  margin-left: 896px;
+}
+
+.seis:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+/*LABERINTO 2*/
+.rutas2 {
+  width: 1280px;
+  height: 700px;
+  margin: auto;
+  }
+
+.rutas2__img {
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+}
+.uno2 {
+  position: absolute;
+  margin-top: -545px;
+  margin-left: 125px;
+}
+
+.uno2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.dos2 {
+  position: absolute;
+  margin-top: -690px;
+  margin-left: 475px;
+}
+
+.dos2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.tres2 {
+  position: absolute;
+  margin-top: -610px;
+  margin-left: 898px;
+}
+
+.tres2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cuatro2 {
+  position: absolute;
+  margin-top: -405px;
+  margin-left: 623px;
+}
+.cuatro2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.cinco2 {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 540px;
+}
+.cinco2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.seis2 {
+  position: absolute;
+  margin-top: -285px;
+  margin-left: 896px;
+}
+
+.seis2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+/*CREA TU AVATAR*/
+.unoa {
+  position: absolute;
+  margin-top: -545px;
+  margin-left: 125px;
+}
+
+.unoa:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.dosb {
+  position: absolute;
+  margin-top: -545px;
+  margin-left: 898px;
+}
+
+.dosb:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.tresz {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 898px;
+}
+
+.tresz:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+.cuatroc {
+  position: absolute;
+  margin-top: -405px;
+  margin-left: 523px;
+}
+.cuatroc:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.cincos {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 125px;
+}
+
+.cincos:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+
+/*CREA TU AVATAR*/
+.rutas2 {
+  width: 1280px;
+  height: 700px;
+  margin: auto;
+  }
+
+.rutas3__img {
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+/*FORMULARIO*/
+.formulario {
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 300px;
+  background: #0833a2;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: ivory;
+}
+#txtnombre {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#txtcontrasenna {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#btnIngresar {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(238, 185, 10);
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#btnIngresar:hover {
+  opacity: 0.5;
+}
+/*
+@media (max-width: 500px) {
+  LABERINTO
+
+  .fondo {
+    width: 100%;
+    margin: auto;
+  }
+  .fondo__img {
+    width: 100%;
+    margin: auto;
+  }
+
+
+  /*.fondo__img {
+    width: 27%;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  .rutas2 {
+    width: 128px;
+    height: 70px;
+    margin: 0;
+    }
+  }
+  .uno2{
+    display: block;
+    position: relative;
+    margin-left: -500px;
+  }*/
+  
+}
+
