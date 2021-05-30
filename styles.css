@@ -4,7 +4,8 @@
   padding: 0;
 }
 body {
-  background: url("./image/cueva1.webp") no-repeat center;
+  /*background: url("./image/cueva1.webp") no-repeat center;*/
+  background: url("./image/fondobiografia.jpg") no-repeat center center/cover;
   font-family: Berlin Sans FB;
 }
 
